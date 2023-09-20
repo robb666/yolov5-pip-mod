@@ -50,11 +50,11 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 
 
 # CLI
-fire
+# fire # <--trim
 # AWS
-boto3>=1.19.1
+# boto3>=1.19.1 # <--trim
 # coco to yolov5 conversion
-sahi>=0.11.10
+# sahi>=0.11.10 # <--trim
 # huggingface
 huggingface-hub>=0.12.0
 # roboflow
