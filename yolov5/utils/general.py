@@ -35,8 +35,9 @@ import pkg_resources as pkg
 import torch
 import torchvision
 import yaml
+###########
 from ultralytics.models.yolo.utils.checks import check_requirements
-
+###########
 from yolov5.utils import TryExcept, emojis
 from yolov5.utils.downloads import curl_download, gsutil_getsize
 from yolov5.utils.metrics import box_iou, fitness
