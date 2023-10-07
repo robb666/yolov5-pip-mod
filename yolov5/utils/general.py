@@ -36,7 +36,7 @@ import torch
 import torchvision
 import yaml
 ###########
-# from ultralytics.models.yolo.utils.checks import check_requirements
+from ultralytics.yolo.utils.checks import check_requirements
 ###########
 from yolov5.utils import TryExcept, emojis
 from yolov5.utils.downloads import curl_download, gsutil_getsize
@@ -357,7 +357,7 @@ def check_git_status(repo='ultralytics/yolov5', branch='master'):
 @WorkingDirectory(ROOT)
 def check_git_info(path='.'):
     # YOLOv5 git info check, return {remote, branch, commit}
-    # check_requirements('gitpython')
+    check_requirements('gitpython')
     import git
     try:
         repo = git.Repo(path)
