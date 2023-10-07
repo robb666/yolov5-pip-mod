@@ -36,7 +36,7 @@ import torch
 import torchvision
 import yaml
 ###########
-from ultralytics.models.yolo.utils.checks import check_requirements
+# from ultralytics.models.yolo.utils.checks import check_requirements
 ###########
 from yolov5.utils import TryExcept, emojis
 from yolov5.utils.downloads import curl_download, gsutil_getsize
