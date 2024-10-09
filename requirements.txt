@@ -57,6 +57,7 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 # coco to yolov5 conversion
 # sahi>=0.11.10 # <--trim
 # huggingface
-huggingface-hub>=0.12.0
+# huggingface-hub>=0.12.0
+huggingface-hub==0.24.7
 # roboflow
 # roboflow>=0.2.29 # <--trim
